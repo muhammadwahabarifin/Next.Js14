@@ -2,10 +2,10 @@
 
 import Footer from '@/components/navigation/footer';
 import { Button } from '@/components/ui/button';
-import GradualSpacing from '@/components/ui/gradual-spacing';
+// import GradualSpacing from '@/components/ui/gradual-spacing';
 import { HoverBorderGradient } from '@/components/ui/hover-border-gradient';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
-import { word } from '@/constants';
+import { word } from '@/constants/projects';
 import Link from 'next/link';
 import React from 'react';
 

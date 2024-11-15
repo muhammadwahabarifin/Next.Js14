@@ -1,7 +1,7 @@
 'use client';
 
 import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
-import { PROJECTS } from '@/constants';
+import { PROJECTS } from '@/constants/projects';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';

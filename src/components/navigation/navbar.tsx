@@ -29,8 +29,8 @@ const Navbar = () => {
         <div className="fixed w-full h-14 z-50 top-0 left-0">
             <nav className="backdrop-blur-md w-full flex items-center justify-between px-4 md:px-0 md:justify-around h-full">
                 <div className="flex gap-2 cursor-default font-bold text-white items-center">
-                    <Image src={img} alt="Logo" className="w-4 h-5" priority />
-                    <span>WahabArf</span>
+                    {/* <Image src={img} alt="Logo" className="w-4 h-5" priority /> */}
+                    <h1>WahabArf</h1>
                 </div>
                 <div>
                     <ul
