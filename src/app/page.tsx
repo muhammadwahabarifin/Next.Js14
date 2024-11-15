@@ -16,13 +16,13 @@ export default function page() {
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)]" />
                 {/* <Meteors number={50} /> */}
                 <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-40 md:pt-0 flex flex-col items-center">
-                    {/* <h1 className="text-6xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 max-w-72 md:max-w-none leading-tight">
-            Hi I&#39;m WahabArf
-          </h1> */}
-                    <GradualSpacing
+                    <h1 className="text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 max-w-72 md:max-w-none leading-tight">
+                        Hi I&#39;m WahabArf
+                    </h1>
+                    {/* <GradualSpacing
                         text="Hi I&#39;m WahabArf"
-                        className="text-6xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 max-w-72 md:max-w-none leading-tight"
-                    />
+                        className="text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 max-w-72 md:max-w-none leading-tight"
+                    /> */}
                     <TextGenerateEffect words={word} />
                     <div className="mt-10 flex gap-4 items-center">
                         <Button asChild className="py-2 px-5">
