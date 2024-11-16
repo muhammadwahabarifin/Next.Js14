@@ -1,4 +1,5 @@
 import React from 'react';
+import { LiaNode } from 'react-icons/lia';
 import {
     SiAmazonec2,
     SiAmazonrds,
@@ -22,11 +23,13 @@ import {
     SiMongoose,
     SiMysql,
     SiNextdotjs,
+    SiNodedotjs,
     SiPhp,
     SiPostgresql,
     SiReact,
     SiRedux,
     SiSass,
+    SiShadcnui,
     SiTailwindcss,
     SiTypescript,
 } from 'react-icons/si';
@@ -53,8 +56,8 @@ export const Skills = {
     frontend: [
         { SvgIcon: SiNextdotjs, class: 'fill-stone-950 dark:fill-white' },
         { SvgIcon: SiReact, class: 'fill-blue-500' },
+        { SvgIcon: SiShadcnui, class: 'fill-white' },
         { SvgIcon: SiTailwindcss, class: 'fill-blue-400' },
-        { SvgIcon: SiBootstrap, class: 'fill-purple-500' },
         { SvgIcon: SiFramer, class: 'fill-stone-950 dark:fill-white' },
     ],
     backend: [
@@ -62,6 +65,7 @@ export const Skills = {
         { SvgIcon: SiLaravel, class: 'fill-red-600' },
         { SvgIcon: SiMongodb, class: 'fill-green-500' },
         { SvgIcon: SiExpress, class: 'fill-white' },
+        { SvgIcon: LiaNode, class: 'fill-green-600' },
     ],
     devops: [
         { SvgIcon: SiGit, class: 'fill-red-600' },

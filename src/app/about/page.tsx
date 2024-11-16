@@ -12,7 +12,7 @@ import { StarsBackground } from '@/components/ui/stars-background';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { TbBrandVscode } from 'react-icons/tb';
+import { TbBrandVscode, TbLanguage } from 'react-icons/tb';
 
 import img from '../../../public/profile .jpg';
 
