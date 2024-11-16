@@ -28,7 +28,7 @@ export const PROJECTS = [
     {
         id: 5,
         title: 'Aoshi AI',
-        skill: 'Next js, Typescript, Tailwind CSS, Framer Motion',
+        skill: 'Next js, Tailwind CSS, Framer Motion',
         img: '/project5.webp',
     },
 ];
