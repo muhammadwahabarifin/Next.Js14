@@ -62,10 +62,10 @@ export const Skills = {
     ],
     backend: [
         { SvgIcon: SiMysql, class: 'fill-orange-500' },
+        { SvgIcon: SiPhp, class: 'fill-indigo-400' },
         { SvgIcon: SiLaravel, class: 'fill-red-600' },
         { SvgIcon: SiMongodb, class: 'fill-green-500' },
         { SvgIcon: SiExpress, class: 'fill-white' },
-        { SvgIcon: LiaNode, class: 'fill-green-600' },
     ],
     devops: [
         { SvgIcon: SiGit, class: 'fill-red-600' },
