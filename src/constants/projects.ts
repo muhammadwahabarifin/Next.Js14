@@ -3,21 +3,21 @@ export const word = `MERN stack developer and third year Computer Applications s
 export const PROJECTS = [
     {
         id: 1,
-        title: 'Aoshi AI',
-        skill: ' Next.js 14, Tailwind CSS, Framer Motion',
-        img: '/project1.png',
+        title: 'Code Framer',
+        skill: ' Next.js, TailwindCSS, Framer Motion',
+        img: '/project1.webp',
     },
     {
         id: 2,
         title: 'Fullstack Blog',
-        skill: 'Next.js14, Tailwind CSS, MongoDB, Next Auth',
+        skill: 'Next.js, Tailwind, MongoDB, Next Auth',
         img: '/project2.webp',
     },
     {
         id: 3,
-        title: 'Chakra UI',
-        skill: 'React js,  Chakra UI, Saas',
-        img: '/project3.png',
+        title: 'Amazone ui',
+        skill: 'React Js, Next.js, Tailwind Css',
+        img: '/project3.webp',
     },
     {
         id: 4,
@@ -27,8 +27,8 @@ export const PROJECTS = [
     },
     {
         id: 5,
-        title: 'Bank Hotel',
-        skill: 'Next.js14, Gsap, Framer Motion',
-        img: '/project5.png',
+        title: 'Aoshi AI',
+        skill: 'Next js, Typescript, Tailwind CSS, Framer Motion',
+        img: '/project5.webp',
     },
 ];
