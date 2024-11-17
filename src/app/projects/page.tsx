@@ -35,7 +35,7 @@ export default function Projects() {
                             <CardItem
                                 as="p"
                                 translateZ="60"
-                                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                                className="text-neutral-400 text-sm max-w-sm mt-2"
                             >
                                 Tech Stack: {project.skill}
                             </CardItem>

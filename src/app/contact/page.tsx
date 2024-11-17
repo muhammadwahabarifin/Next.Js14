@@ -29,8 +29,8 @@ const Contact = () => {
                         &nbsp;Wahabarf699@gmail.com
                     </Link>
                     <p className="flex items-center">
-                        <IoPhonePortraitOutline />
-                        &nbsp;9953712825
+                        {/* <IoPhonePortraitOutline /> */}
+                        &#64;wahabarf
                     </p>
                     <div className="mt-2">
                         <Socials hidden={false} />

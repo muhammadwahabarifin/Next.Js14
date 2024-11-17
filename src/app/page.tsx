@@ -21,10 +21,7 @@ export default function page() {
                     <TextGenerateEffect words={word} />
                     <div className="mt-10 flex gap-4 items-center">
                         <Button asChild className="py-2 px-5">
-                            <Link
-                                href="https://drive.google.com/file/d/1-HwkSzC-VrQtCMD3qpLF8i7HJ4OCXpNd/view?usp=drivesdk"
-                                target="_blank"
-                            >
+                            <Link href="/" target="_blank">
                                 Resume
                             </Link>
                         </Button>
