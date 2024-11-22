@@ -27,7 +27,7 @@ Built with Next.js to handle the user interface, Three.js to render 3D elements,
 ## Tech Stack ⚙
 
 - Next.js
-- Three.js
+- Typescript
 - Framer Motion
 - Tailwind CSS
   
