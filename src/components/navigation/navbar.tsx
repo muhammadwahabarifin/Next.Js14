@@ -69,7 +69,10 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className={linkStyle}>
-                            <Link href="#" target="_blank">
+                            <Link
+                                href="https://blogs-xyz.vercel.app/"
+                                target="_blank"
+                            >
                                 <span className={linkSpan}>
                                     <PiPenNibStraight />
                                     Blog

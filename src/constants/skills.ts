@@ -58,7 +58,6 @@ export const Skills = {
         { SvgIcon: SiReact, class: 'fill-blue-500' },
         { SvgIcon: SiShadcnui, class: 'fill-white' },
         { SvgIcon: SiTailwindcss, class: 'fill-blue-400' },
-        { SvgIcon: SiFramer, class: 'fill-stone-950 dark:fill-white' },
     ],
     backend: [
         { SvgIcon: SiMysql, class: 'fill-orange-500' },
