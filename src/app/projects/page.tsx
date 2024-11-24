@@ -22,7 +22,8 @@ export default function Projects() {
                     Here are a few projects I&apos;ve worked on recently.
                 </p>
             </div>
-            <div className="grid md:grid-cols-2 2xl:grid-cols-3 gap-10 my-20">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 2xl:grid-cols-3 gap-10 my-20">
+                {/* before: no large */}
                 {PROJECTS.map((project, index) => (
                     <CardContainer className="inter-var" key={project.id}>
                         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[90vw] sm:w-[70vw] md:w-[45vw] xl:w-[30rem] h-auto xl:h-[28rem] rounded-xl p-6 border">

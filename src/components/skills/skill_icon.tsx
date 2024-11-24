@@ -6,7 +6,12 @@ import { motion } from 'framer-motion';
 export const LanguageSkills = () => (
     <>
         {Skills.language?.map((icon: any, index: number) => (
-            <li key={index}>
+            <li
+                key={index}
+                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                data-tooltip={icon.tooltip}
+            >
                 <IconSkills icon={icon} index_={index} />
             </li>
         ))}
@@ -16,7 +21,12 @@ export const LanguageSkills = () => (
 export const FrontendSkills = () => (
     <>
         {Skills.frontend?.map((icon: any, index: number) => (
-            <li key={index}>
+            <li
+                key={index}
+                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                data-tooltip={icon.tooltip}
+            >
                 <IconSkills icon={icon} index_={index} />
             </li>
         ))}
@@ -26,7 +36,12 @@ export const FrontendSkills = () => (
 export const BackendSkills = () => (
     <>
         {Skills.backend?.map((icon: any, index: number) => (
-            <li key={index}>
+            <li
+                key={index}
+                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                data-tooltip={icon.tooltip}
+            >
                 <IconSkills icon={icon} index_={index} />
             </li>
         ))}
@@ -36,7 +51,12 @@ export const BackendSkills = () => (
 export const DevopsSkills = () => (
     <>
         {Skills.devops?.map((icon: any, index: number) => (
-            <li key={index}>
+            <li
+                key={index}
+                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                data-tooltip={icon.tooltip}
+            >
                 <IconSkills icon={icon} index_={index} />
             </li>
         ))}

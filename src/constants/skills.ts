@@ -35,7 +35,7 @@ import {
 } from 'react-icons/si';
 
 type Item = {
-    // tooltip: string;
+    tooltip: string;
     SvgIcon: any;
     class?: string;
 };
@@ -48,26 +48,86 @@ type Skills = {
 
 export const Skills = {
     language: [
-        { SvgIcon: SiHtml5, class: 'fill-orange-500' },
-        { SvgIcon: SiCss3, class: 'fill-blue-400' },
-        { SvgIcon: SiJavascript, class: 'fill-yellow-400 rounded' },
-        { SvgIcon: SiTypescript, class: 'fill-blue-800 rounded' },
+        {
+            SvgIcon: SiHtml5,
+            tooltip: 'HTML5',
+            class: 'fill-orange-500',
+        },
+        {
+            SvgIcon: SiCss3,
+            tooltip: 'CSS3',
+            class: 'fill-blue-400',
+        },
+        {
+            SvgIcon: SiJavascript,
+            tooltip: 'Javascript',
+            class: 'fill-yellow-400 rounded',
+        },
+        {
+            SvgIcon: SiTypescript,
+            tooltip: 'Typescript',
+            class: 'fill-blue-800 rounded',
+        },
     ],
     frontend: [
-        { SvgIcon: SiNextdotjs, class: 'fill-stone-950 dark:fill-white' },
-        { SvgIcon: SiReact, class: 'fill-blue-500' },
-        { SvgIcon: SiShadcnui, class: 'fill-white' },
-        { SvgIcon: SiTailwindcss, class: 'fill-blue-400' },
+        {
+            SvgIcon: SiNextdotjs,
+            tooltip: 'NextJs',
+            class: 'fill-stone-950 dark:fill-white',
+        },
+        {
+            SvgIcon: SiReact,
+            tooltip: 'ReactJs',
+            class: 'fill-blue-500',
+        },
+        {
+            SvgIcon: SiShadcnui,
+            tooltip: 'ShadcnUI',
+            class: 'fill-white',
+        },
+        {
+            SvgIcon: SiTailwindcss,
+            tooltip: 'TailwindCSS',
+            class: 'fill-blue-400',
+        },
     ],
     backend: [
-        { SvgIcon: SiMysql, class: 'fill-orange-500' },
-        { SvgIcon: SiLaravel, class: 'fill-red-600' },
-        { SvgIcon: SiMongodb, class: 'fill-green-500' },
-        { SvgIcon: SiExpress, class: 'fill-white' },
+        {
+            SvgIcon: SiMysql,
+            tooltip: 'MySQL',
+            class: 'fill-orange-500',
+        },
+        {
+            SvgIcon: SiLaravel,
+            tooltip: 'Laravel',
+            class: 'fill-red-600',
+        },
+        {
+            SvgIcon: SiMongodb,
+            tooltip: 'MongoDB',
+            class: 'fill-green-500',
+        },
+        {
+            SvgIcon: SiExpress,
+            tooltip: 'ExpressJs',
+            class: 'fill-white',
+        },
     ],
     devops: [
-        { SvgIcon: SiGit, class: 'fill-red-600' },
-        { SvgIcon: SiMicrosoftazure, class: 'fill-sky-500' },
-        { SvgIcon: SiAmazonec2, class: 'fill-orange-500' },
+        {
+            SvgIcon: SiGit,
+            tooltip: 'Git',
+            class: 'fill-red-600',
+        },
+        {
+            SvgIcon: SiMicrosoftazure,
+            tooltip: 'Azure',
+            class: 'fill-sky-500',
+        },
+        {
+            SvgIcon: SiAmazonec2,
+            tooltip: 'AmazonEC2',
+            class: 'fill-orange-500',
+        },
     ],
 };
