@@ -68,11 +68,8 @@ const Navbar = () => {
                                 </span>
                             </Link>
                         </li>
-                        <li className={linkStyle}>
-                            <Link
-                                href="https://blogs-xyz.vercel.app/"
-                                target="_blank"
-                            >
+                        <li className={linkStyle} onClick={menuHandler}>
+                            <Link href="/blog">
                                 <span className={linkSpan}>
                                     <PiPenNibStraight />
                                     Blog
