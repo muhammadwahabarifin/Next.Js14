@@ -1,3 +1,4 @@
+import { BackgroundLines } from '@/components/ui/background-lines';
 import { ShootingStars } from '@/components/ui/shooting-stars';
 import { StarsBackground } from '@/components/ui/stars-background';
 import { ArrowRight } from 'lucide-react';
@@ -7,24 +8,14 @@ import React from 'react';
 const Blog = () => {
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center w-full flex-col mx-auto">
-                <h1 className="text-4xl text-center font-semibold">
-                    COMMING SOON 🚀
-                </h1>
-                <Link
-                    href="/"
-                    className="flex items-center text-2xl mr-2 text-blue-400 hover:opacity-70 cursor-pointer"
-                >
-                    Go To Back
-                    <span className="ml-1 items-center">
-                        <ArrowRight size={18} />
-                    </span>
-                </Link>
-            </div>
-            <div className="fixed -top-10 -left-10 -z-20 w-[80%] h-[18%] bg-gradient-to-r from-indigo-800 to-purple-900  blur-[150px] rounded-lg -rotate-12" />
-            <div className="fixed top-0 z-50 w-[100%] h-screen translate-x-[100%] bg-black animate-slide-in-out" />
-            <ShootingStars />
-            <StarsBackground />
+            <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 min-h-screen">
+                <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
+                    COMMING SOON !
+                </h2>
+                <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
+                    Design By WahabArf
+                </p>
+            </BackgroundLines>
         </>
     );
 };
