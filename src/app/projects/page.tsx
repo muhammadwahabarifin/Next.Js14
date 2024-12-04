@@ -26,7 +26,7 @@ export default function Projects() {
                 {/* before: no large */}
                 {PROJECTS.map((project, index) => (
                     <CardContainer className="inter-var" key={project.id}>
-                        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[90vw] sm:w-[70vw] md:w-[45vw] xl:w-[30rem] h-auto xl:h-[28rem] rounded-xl p-6 border">
+                        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -40,7 +40,12 @@ export default function Projects() {
                             >
                                 Tech Stack: {project.skill}
                             </CardItem>
-                            <CardItem translateZ="100" className="w-full mt-4">
+                            <CardItem
+                                translateZ="100"
+                                rotateX={20}
+                                rotateZ={-10}
+                                className="w-full mt-4"
+                            >
                                 <Image
                                     src={project.img}
                                     height="1000"
@@ -53,6 +58,7 @@ export default function Projects() {
                             <div className="flex justify-between items-center mt-5">
                                 <CardItem
                                     translateZ={20}
+                                    translateX={-40}
                                     as={Link}
                                     href="https://twitter.com"
                                     target="__blank"
@@ -62,6 +68,7 @@ export default function Projects() {
                                 </CardItem>
                                 <CardItem
                                     translateZ={20}
+                                    translateX={40}
                                     as={Link}
                                     href="https://github.com"
                                     target="__blank"
