@@ -93,18 +93,8 @@ export const Skills = {
     ],
     backend: [
         {
-            SvgIcon: SiMysql,
-            tooltip: 'MySQL',
-            class: 'fill-orange-500',
-        },
-        {
-            SvgIcon: SiLaravel,
-            tooltip: 'Laravel',
-            class: 'fill-red-600',
-        },
-        {
-            SvgIcon: SiMongodb,
-            tooltip: 'MongoDB',
+            SvgIcon: SiNodedotjs,
+            tooltip: 'NodeJs',
             class: 'fill-green-500',
         },
         {
@@ -112,22 +102,17 @@ export const Skills = {
             tooltip: 'ExpressJs',
             class: 'fill-white',
         },
+        {
+            SvgIcon: SiMongodb,
+            tooltip: 'MongoDB',
+            class: 'fill-green-500',
+        },
     ],
     devops: [
         {
             SvgIcon: SiGit,
             tooltip: 'Git',
             class: 'fill-red-600',
-        },
-        {
-            SvgIcon: SiMicrosoftazure,
-            tooltip: 'Azure',
-            class: 'fill-sky-500',
-        },
-        {
-            SvgIcon: SiAmazonec2,
-            tooltip: 'AmazonEC2',
-            class: 'fill-orange-500',
         },
     ],
 };
