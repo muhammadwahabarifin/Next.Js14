@@ -41,7 +41,7 @@ export default function page() {
                                 as="button"
                                 className="dark:bg-black bg-white text-black dark:text-white flex items-center justify-center space-x-2 w-28"
                             >
-                                <Link href="/projects">Projects</Link>
+                                <Link href="/example">Projects</Link>
                             </HoverBorderGradient>
                         </div>
                     </div>
