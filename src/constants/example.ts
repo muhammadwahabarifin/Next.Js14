@@ -4,6 +4,7 @@ import {
     SiHtml5,
     SiJavascript,
     SiNextdotjs,
+    SiShadcnui,
     SiStyledcomponents,
     SiTailwindcss,
     SiTypescript,
@@ -51,6 +52,11 @@ export const EXAMPLE: Array<Project> = [
                 title: 'TailwindCSS',
                 class: 'fill-blue-400',
             },
+            {
+                SvgIcon: SiShadcnui,
+                title: 'ShadcnUI',
+                class: 'fill-white',
+            },
         ],
     },
     {
@@ -78,10 +84,10 @@ export const EXAMPLE: Array<Project> = [
         ],
     },
     {
-        title: 'Bank Hotel',
+        title: 'Liquid Hotel',
         description:
             'A project to test styling capabilities while maintaining responsiveness',
-        urlDirect: 'https://temmy-bank-hotel.vercel.app/',
+        urlDirect: 'https://liquid-hotel.vercel.app/',
         srcImage: '/project8.png',
         icons: [
             {

@@ -7,6 +7,8 @@ import { useEffect } from 'react';
 
 /* eslint-disable react-hooks/exhaustive-deps */
 
+/* eslint-disable react-hooks/exhaustive-deps */
+
 export const TextGenerateEffect = ({
     words,
     className,

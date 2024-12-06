@@ -7,6 +7,8 @@ import React, { useEffect, useRef, useState } from 'react';
 
 /* eslint-disable react-hooks/exhaustive-deps */
 
+/* eslint-disable react-hooks/exhaustive-deps */
+
 type Direction = 'TOP' | 'LEFT' | 'BOTTOM' | 'RIGHT';
 
 export function HoverBorderGradient({

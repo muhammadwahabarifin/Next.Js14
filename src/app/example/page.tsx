@@ -16,6 +16,10 @@ import { TbEye, TbStack2, TbWorldShare } from 'react-icons/tb';
 
 /* eslint-disable @next/next/no-img-element */
 
+/* eslint-disable @next/next/no-img-element */
+
+/* eslint-disable @next/next/no-img-element */
+
 const Example = () => {
     return (
         <>
