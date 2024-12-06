@@ -18,7 +18,7 @@ export default function page() {
                 {/* <Meteors number={50} /> */}
                 <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-40 md:pt-0 flex flex-col items-center">
                     <BlurIn word="Hi I&#39;m WahabArf" />
-                    <TextGenerateEffect words={word} />
+                    <TextGenerateEffect words={word} className="capitalize" />
                     <div className="mt-10 flex gap-4 items-center">
                         <Button asChild className="py-2 px-5">
                             <Link href="/" target="_blank">

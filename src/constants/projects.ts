@@ -1,4 +1,4 @@
-export const word = `MERN stack developer and third year Computer Applications student passionate about mastering Cloud Computing and DevOps.`;
+export const word = `Frontend developer and informatics technology student who is passionate about mastering various modern technologies and devOps.`;
 
 export const PROJECTS = [
     {
