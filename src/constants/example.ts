@@ -62,7 +62,7 @@ export const EXAMPLE: Array<Project> = [
     {
         title: 'Evara E-commerce',
         description:
-            'A Responsive Ecommerce Website Project With HTML CSS Javascript.',
+            'A responsive e-commerce website project with HTML CSS Javascript.',
         urlDirect: 'https://evara-ecommerce-phi.vercel.app/',
         srcImage: '/project7.png',
         icons: [

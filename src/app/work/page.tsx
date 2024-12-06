@@ -20,7 +20,11 @@ import { TbEye, TbStack2, TbWorldShare } from 'react-icons/tb';
 
 /* eslint-disable @next/next/no-img-element */
 
-const Example = () => {
+/* eslint-disable @next/next/no-img-element */
+
+/* eslint-disable @next/next/no-img-element */
+
+const Work = () => {
     return (
         <>
             <motion.div
@@ -50,6 +54,7 @@ const Example = () => {
                                 className="absolute px-7 py-1 rounded-bl-xl rounded-tr-xl right-0 bg-black bg-opacity-50 
               flex gap-2 items-center text-white"
                                 href={project.urlDirect}
+                                target="_blank"
                             >
                                 <span>Preview</span>
                                 <TbWorldShare className="w-5 h-5 animate-bounce" />
@@ -93,4 +98,4 @@ const Example = () => {
     );
 };
 
-export default Example;
+export default Work;

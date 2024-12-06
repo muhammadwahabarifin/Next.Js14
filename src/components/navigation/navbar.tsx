@@ -53,7 +53,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className={linkStyle} onClick={menuHandler}>
-                            <Link href="/example">
+                            <Link href="/work">
                                 <span className={linkSpan}>
                                     <Layers className="size-5" />
                                     Projects
