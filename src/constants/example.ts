@@ -85,8 +85,7 @@ export const EXAMPLE: Array<Project> = [
     },
     {
         title: 'Liquid Hotel',
-        description:
-            'A project to test styling capabilities while maintaining responsiveness',
+        description: 'A website using the Javascript animation library GSAP',
         urlDirect: 'https://liquid-hotel.vercel.app/',
         srcImage: '/project8.png',
         icons: [
@@ -109,6 +108,35 @@ export const EXAMPLE: Array<Project> = [
                 SvgIcon: SiStyledcomponents,
                 title: 'StyledComponents',
                 class: 'fill-amber-400',
+            },
+        ],
+    },
+    {
+        title: 'Blog',
+        description:
+            'A Next.js 14 Blog using Server Components & Backed by Wisp CMS',
+        urlDirect: 'https://14-blog-server-components-gold.vercel.app/',
+        srcImage: '/project9.png',
+        icons: [
+            {
+                SvgIcon: SiNextdotjs,
+                title: 'NextJS',
+                class: 'fill-black dark:fill-white',
+            },
+            {
+                SvgIcon: SiTypescript,
+                title: 'Typescript',
+                class: 'fill-blue-800 rounded',
+            },
+            {
+                SvgIcon: SiShadcnui,
+                title: 'ShadcnUI',
+                class: 'fill-white',
+            },
+            {
+                SvgIcon: SiTailwindcss,
+                title: 'TailwindCSS',
+                class: 'fill-blue-400',
             },
         ],
     },

@@ -43,16 +43,16 @@ const Work = () => {
                 </div>
 
                 {/* card list */}
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 2xl:grid-cols-3 gap-10 my-20 mx-8 justify-center items-center">
-                    {EXAMPLE.slice(0, 3).map((project: any, index: number) => (
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 my-20 mx-8 justify-center items-center">
+                    {EXAMPLE.slice(0, 4).map((project: any, index: number) => (
                         <div
                             key={index}
                             className=" h-auto border border-stone-300 rounded-xl
           hover:scale-105 duration-300 flex flex-col dark:border-neutral-800 dark:bg-black relative"
                         >
                             <a
-                                className="absolute px-7 py-1 rounded-bl-xl rounded-tr-xl right-0 bg-black bg-opacity-50 
-              flex gap-2 items-center text-white"
+                                className="absolute px-7 py-1 rounded-bl-xl rounded-tr-xl right-0 bg-white 
+              flex gap-2 items-center text-black"
                                 href={project.urlDirect}
                                 target="_blank"
                             >
