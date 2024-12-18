@@ -21,7 +21,7 @@ export default function page() {
                     <TextGenerateEffect words={word} className="capitalize" />
                     <div className="mt-10 flex gap-4 items-center">
                         <Button asChild className="py-2 px-5">
-                            <Link href="/" target="_blank">
+                            <Link href="#">
                                 Resume
                             </Link>
                         </Button>

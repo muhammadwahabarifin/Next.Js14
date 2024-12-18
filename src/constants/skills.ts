@@ -40,11 +40,11 @@ type Item = {
     class?: string;
 };
 
-type Skills = {
-    language?: Array<Item>;
-    frontend?: Array<Item>;
-    backend?: Array<Item>;
-};
+// type Skills = {
+//     language?: Array<Item>;
+//     frontend?: Array<Item>;
+//     backend?: Array<Item>;
+// };
 
 export const Skills = {
     language: [
