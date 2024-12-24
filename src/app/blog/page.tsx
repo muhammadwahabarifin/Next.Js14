@@ -1,9 +1,7 @@
+import React from 'react';
 import { BackgroundLines } from '@/components/ui/background-lines';
 import { ShootingStars } from '@/components/ui/shooting-stars';
 import { StarsBackground } from '@/components/ui/stars-background';
-import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
-import React from 'react';
 
 const Blog = () => {
     return (

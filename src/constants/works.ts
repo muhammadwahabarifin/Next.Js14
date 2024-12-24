@@ -24,7 +24,7 @@ type Project = {
     icons: Array<Icon>;
 };
 
-export const EXAMPLE: Array<Project> = [
+export const WORKS: Array<Project> = [
     {
         title: 'Aoshi Platform',
         description: 'Aoshi-AI is the link management platform for businesses.',

@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 
-import { EXAMPLE } from '@/constants/example';
+import { WORKS } from '@/constants/works';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import React from 'react';
-import { SiNodedotjs, SiReact, SiTailwindcss } from 'react-icons/si';
-import { TbEye, TbStack2, TbWorldShare } from 'react-icons/tb';
+import { TbWorldShare } from 'react-icons/tb';
 
 /* eslint-disable @next/next/no-img-element */
 
@@ -44,7 +42,7 @@ const Work = () => {
 
                 {/* card list */}
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 my-20 mx-8 justify-center items-center">
-                    {EXAMPLE.slice(0, 4).map((project: any, index: number) => (
+                    {WORKS.slice(0, 4).map((project: any, index: number) => (
                         <div
                             key={index}
                             className=" h-auto border border-stone-300 rounded-xl
