@@ -12,7 +12,7 @@ import { PiPenNibStraight } from 'react-icons/pi';
 // import dynamic from "next/dynamic";
 import { RiMenu4Fill } from 'react-icons/ri';
 
-import img from '../../../public/Logo.png';
+// import img from '../../../public/profile .jpg';
 import Socials from '../Socials';
 
 const Navbar = () => {

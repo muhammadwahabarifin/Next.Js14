@@ -14,6 +14,7 @@ type Icon = {
     SvgIcon: any;
     title: string;
     class: string;
+    text: string;
 };
 
 type Project = {
@@ -22,6 +23,7 @@ type Project = {
     urlDirect: string;
     srcImage: string;
     icons: Array<Icon>;
+    text?: string;
 };
 
 export const WORKS: Array<Project> = [
@@ -36,107 +38,31 @@ export const WORKS: Array<Project> = [
                 SvgIcon: SiNextdotjs,
                 title: 'NextJS',
                 class: 'fill-black dark:fill-white',
-            },
-            {
-                SvgIcon: SiFramer,
-                title: 'FramerMotion',
-                class: 'fill-black dark:fill-white',
-            },
-            {
-                SvgIcon: SiTypescript,
-                title: 'Typescript',
-                class: 'fill-blue-800 rounded',
+                text: 'NextJs',
             },
             {
                 SvgIcon: SiTailwindcss,
                 title: 'TailwindCSS',
-                class: 'fill-blue-400',
+                class: 'fill-blue-500',
+                text: 'TailwindCss',
             },
             {
                 SvgIcon: SiShadcnui,
                 title: 'ShadcnUI',
                 class: 'fill-white',
-            },
-        ],
-    },
-    {
-        title: 'Evara E-commerce',
-        description:
-            'A responsive e-commerce website project with HTML CSS Javascript.',
-        urlDirect: 'https://evara-ecommerce-phi.vercel.app/',
-        srcImage: '/project7.png',
-        icons: [
-            {
-                SvgIcon: SiHtml5,
-                title: 'HTML5',
-                class: 'fill-orange-800',
+                text: 'ShadcnUI',
             },
             {
-                SvgIcon: SiCss3,
-                title: 'CSS3',
-                class: 'fill-blue-800 rounded',
-            },
-            {
-                SvgIcon: SiJavascript,
-                title: 'Javascript',
-                class: 'fill-yellow-400',
-            },
-        ],
-    },
-    {
-        title: 'Liquid Hotel',
-        description: 'A website using the Javascript animation library GSAP',
-        urlDirect: 'https://liquid-hotel.vercel.app/',
-        srcImage: '/project8.png',
-        icons: [
-            {
-                SvgIcon: SiNextdotjs,
-                title: 'NextJS',
-                class: 'fill-black dark:fill-white',
+                SvgIcon: SiTypescript,
+                title: 'Typescript',
+                class: 'fill-blue-500 rounded',
+                text: 'Typescript',
             },
             {
                 SvgIcon: SiFramer,
                 title: 'FramerMotion',
                 class: 'fill-black dark:fill-white',
-            },
-            {
-                SvgIcon: SiTypescript,
-                title: 'Typescript',
-                class: 'fill-blue-800 rounded',
-            },
-            {
-                SvgIcon: SiStyledcomponents,
-                title: 'StyledComponents',
-                class: 'fill-amber-400',
-            },
-        ],
-    },
-    {
-        title: 'Blog',
-        description:
-            'A Next.js 14 Blog using Server Components & Backed by Wisp CMS',
-        urlDirect: 'https://14-blog-server-components-gold.vercel.app/',
-        srcImage: '/project9.png',
-        icons: [
-            {
-                SvgIcon: SiNextdotjs,
-                title: 'NextJS',
-                class: 'fill-black dark:fill-white',
-            },
-            {
-                SvgIcon: SiTypescript,
-                title: 'Typescript',
-                class: 'fill-blue-800 rounded',
-            },
-            {
-                SvgIcon: SiShadcnui,
-                title: 'ShadcnUI',
-                class: 'fill-white',
-            },
-            {
-                SvgIcon: SiTailwindcss,
-                title: 'TailwindCSS',
-                class: 'fill-blue-400',
+                text: 'Framer Motion',
             },
         ],
     },

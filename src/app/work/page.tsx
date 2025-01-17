@@ -6,22 +6,6 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { TbWorldShare } from 'react-icons/tb';
 
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
 const Work = () => {
     return (
         <>
@@ -75,16 +59,19 @@ const Work = () => {
                             <ul className="h-full flex flex-wrap items-end gap-3 pb-4 px-4 justify-self-start">
                                 {project.icons.map(
                                     (icon: any, index_: number) => (
-                                        <li
+                                        <div
                                             key={index_}
-                                            className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
-                  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                                            className=" before:text-neutral-700 dark:text-white before:bg-neutral-200 
+                  before:dark:bg-white"
                                             data-tooltip={icon.title}
                                         >
-                                            <icon.SvgIcon
-                                                className={`w-7 h-7 ${icon.class} `}
-                                            />
-                                        </li>
+                                            <div className='border inline-flex items-center gap-2 rounded-lg px-2.5 py-0.5'>
+                                                <icon.SvgIcon
+                                                    className={`w-4 h-4 ${icon.class} `}
+                                                />
+                                                <span className='text-sm'>{icon.text}</span>
+                                            </div>
+                                        </div>
                                     ),
                                 )}
                             </ul>
