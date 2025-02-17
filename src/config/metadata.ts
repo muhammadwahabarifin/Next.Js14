@@ -25,5 +25,5 @@ export const SITE_CONFIG: Metadata = {
         title: 'WahabArf || Personal Portfolio',
         description: 'Personal Website by NextJs',
     },
-    metadataBase: new URL('https://next-js-chi-green.vercel.app/'),
+    metadataBase: new URL('https://wahabarf.com/'),
 };
