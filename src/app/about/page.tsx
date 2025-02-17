@@ -27,13 +27,15 @@ export default function page() {
                         </h1>
                         <div className="space-y-4">
                             <p className="md:max-w-xl xl:max-w-2xl text-neutral-200 md:pr-4">
-                                Welcome to my portfolio! I am a passionate frontend developer
-                                on my way to becoming a full-stack developer. I have big dreams
-                                of mastering various modern technologies. I love building modern
-                                UI applications using cutting-edge frameworks like React.
-                                My portfolio features a collection of projects that showcase
-                                my skills and dedication to creating innovative solutions.
-                                Feel free to explore my projects.
+                                Welcome to my portfolio! I am a passionate
+                                frontend developer on my way to becoming a
+                                full-stack developer. I have big dreams of
+                                mastering various modern technologies. I love
+                                building modern UI applications using
+                                cutting-edge frameworks like React. My portfolio
+                                features a collection of projects that showcase
+                                my skills and dedication to creating innovative
+                                solutions. Feel free to explore my projects.
                             </p>
                             <HoverBorderGradient
                                 containerClassName="rounded-xl"

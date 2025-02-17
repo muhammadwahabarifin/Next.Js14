@@ -14,6 +14,8 @@ import React, {
 
 /* eslint-disable react-hooks/exhaustive-deps */
 
+/* eslint-disable react-hooks/exhaustive-deps */
+
 interface StarProps {
     x: number;
     y: number;

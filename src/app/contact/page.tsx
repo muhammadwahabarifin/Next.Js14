@@ -22,7 +22,7 @@ const Contact = () => {
                         Get In Touch
                     </h1>
                     <Link
-                        href="mailto:lakshay.babbar.1801@gmail.com"
+                        href="mailto:xyz@gmail.com"
                         className="flex items-center hover:underline hover:underline-offset-4"
                     >
                         <MdEmail />

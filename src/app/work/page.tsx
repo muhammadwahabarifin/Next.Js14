@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { TbWorldShare } from 'react-icons/tb';
 
+/* eslint-disable @next/next/no-img-element */
+
 const Work = () => {
     return (
         <>
@@ -65,11 +67,13 @@ const Work = () => {
                   before:dark:bg-white"
                                             data-tooltip={icon.title}
                                         >
-                                            <div className='border inline-flex items-center gap-2 rounded-lg px-2.5 py-0.5'>
+                                            <div className="border inline-flex items-center gap-2 rounded-lg px-2.5 py-0.5">
                                                 <icon.SvgIcon
                                                     className={`w-4 h-4 ${icon.class} `}
                                                 />
-                                                <span className='text-sm'>{icon.text}</span>
+                                                <span className="text-sm">
+                                                    {icon.text}
+                                                </span>
                                             </div>
                                         </div>
                                     ),
