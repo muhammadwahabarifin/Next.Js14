@@ -8,8 +8,8 @@ export const LanguageSkills = () => (
         {Skills.language?.map((icon: any, index: number) => (
             <li
                 key={index}
-                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
-  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                className=" before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white"
                 data-tooltip={icon.tooltip}
             >
                 <IconSkills icon={icon} index_={index} />
@@ -23,8 +23,8 @@ export const FrontendSkills = () => (
         {Skills.frontend?.map((icon: any, index: number) => (
             <li
                 key={index}
-                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
-  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                className=" before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white"
                 data-tooltip={icon.tooltip}
             >
                 <IconSkills icon={icon} index_={index} />
@@ -38,8 +38,8 @@ export const BackendSkills = () => (
         {Skills.backend?.map((icon: any, index: number) => (
             <li
                 key={index}
-                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
-  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                className="before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white "
                 data-tooltip={icon.tooltip}
             >
                 <IconSkills icon={icon} index_={index} />
@@ -53,8 +53,8 @@ export const DevopsSkills = () => (
         {Skills.devops?.map((icon: any, index: number) => (
             <li
                 key={index}
-                className="tooltip before:text-neutral-700 dark:text-white before:bg-neutral-200 
-  before:dark:bg-white before:content-[attr(data-tooltip)]"
+                className="before:text-neutral-700 dark:text-white before:bg-neutral-200 
+  before:dark:bg-white "
                 data-tooltip={icon.tooltip}
             >
                 <IconSkills icon={icon} index_={index} />

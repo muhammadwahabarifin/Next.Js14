@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react';
-import { IoPhonePortraitOutline } from 'react-icons/io5';
 import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {

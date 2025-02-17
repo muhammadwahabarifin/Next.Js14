@@ -110,7 +110,6 @@ export default function page() {
                 </div>
             </div>
             <div className="fixed -top-10 -left-10 -z-20 w-[80%] h-[18%] bg-gradient-to-r from-indigo-800 to-purple-900  blur-[150px] rounded-lg -rotate-12" />
-            <div className="fixed top-0 z-50 w-[100%] h-screen translate-x-[100%] bg-black animate-slide-in-out" />
             <ShootingStars />
             <StarsBackground />
         </section>
